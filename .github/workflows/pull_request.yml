@@ -17,3 +17,6 @@ jobs:
 
       - name: Lint pull request
         uses: ostsmolynets/test-reusable-workflows/.github/workflows/common-commitlint.yml@master
+
+      - name: Echo
+        run: echo Hello World!
